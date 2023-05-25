@@ -1,0 +1,12 @@
+.table-kqht {
+    border-collapse: collapse;
+    position: relative;
+    vertical-align: middle;
+    width: auto;
+}
+.table-kqht tr > th,
+tr > td {
+    // padding: 4px;
+    align-items: center;
+    border: solid 1px gray;
+}

@@ -1,0 +1,18 @@
+.table-dslhp {
+    margin-top: 10px;
+    text-align: center;
+    border-collapse: collapse;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+.table-dslhp tr > th,
+tr > td {
+    // padding: 4px;
+    align-items: center;
+    border: solid 1px gray;
+}
+// .model {
+//     width: 700px;
+//     background-color: aqua;
+// }

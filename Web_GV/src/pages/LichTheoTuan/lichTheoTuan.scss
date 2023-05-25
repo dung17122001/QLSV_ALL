@@ -1,0 +1,54 @@
+.memu {
+    &:hover {
+        cursor: pointer;
+    }
+}
+.table {
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.table tr > th,
+tr > td {
+    border: solid 1px gray;
+}
+
+.table > tbody {
+    background-image: url('../../images/backgroud-lich.png');
+    //background-color: rgba(255, 255, 255, 0.2);
+}
+
+.thead-ca {
+    width: 8%;
+}
+.thead-ngay {
+    width: 13%;
+}
+.row-ca {
+    //height: 300px;
+    min-height: 300px;
+    max-height: min-content;
+    background-color: bisque;
+}
+
+.table-child > tr > td {
+    border: none;
+    margin: 2px;
+}
+
+.table-child {
+    text-align: left;
+    position: relative;
+
+    // &::before {
+    //     content: '';
+    //     position: absolute;
+    //     top: 0;
+    //     right: 0;
+    //     width: 20px;
+    //     height: 100px;
+    //     background-color: red;
+    //     transform: rotate(45deg);
+    // }
+}

@@ -1,0 +1,34 @@
+@import 'normalize.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'toastr';
+
+:root {
+    --2t-yellow-1: #fdae03;
+    --2t-dark-1: #2a2a2a;
+    --2t-green-1: #008000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+//nav
+
+.active {
+    color: var(--2t-yellow-1);
+}
+
+//crack mui premium
+
+div[style='position: absolute; pointer-events: none; color: rgba(130, 130, 130, 0.62); z-index: 100000; width: 100%; text-align: center; bottom: 50%; right: 0px; letter-spacing: 5px; font-size: 24px;'] {
+    display: none !important;
+}
+.Mui-completed {
+    color: var(--2t-green-1) !important;
+}
+.Mui-active {
+    color: var(--2t-yellow-1) !important;
+}

@@ -1,0 +1,12 @@
+.table-dkhp {
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.table-dkhp tr > th,
+tr > td {
+    padding: 4px;
+    align-items: center;
+    border: solid 1px gray;
+}
